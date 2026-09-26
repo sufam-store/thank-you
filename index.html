@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#ea580c">
+<meta name="description" content="تم استلام طلبك بنجاح — سنتواصل معك قريباً">
+<title>تم استلام طلبك — SUFAM</title>
+<link rel="icon" href="https://i.ibb.co/Dg6yPNpn/sufom-store.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:'Tajawal',system-ui,-apple-system,sans-serif;background:#f8fafc;color:#0f172a;line-height:1.7;direction:rtl;text-align:right;-webkit-font-smoothing:antialiased;overflow-x:hidden;min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+img{max-width:100%;display:block}
+.hdr{background:linear-gradient(90deg,#0f172a 0%,#1e293b 100%);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:3px solid #ea580c}
+.hdr-logo{height:38px;width:auto;filter:drop-shadow(0 0 8px rgba(251,146,60,.5))}
+.hdr-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff;padding:6px 12px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.hdr-badge svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.main{max-width:680px;margin:0 auto;background:#fff;padding:32px 20px 40px;min-height:calc(100vh - 130px)}
+.hero-icon{width:88px;height:88px;border-radius:50%;background:linear-gradient(135deg,#10b981,#059669);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;box-shadow:0 12px 32px -8px rgba(16,185,129,.55);animation:pop .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes pop{0%{transform:scale(0);opacity:0}100%{transform:scale(1);opacity:1}}
+.hero-icon svg{width:46px;height:46px;fill:none;stroke:#fff;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+h1{font-size:26px;font-weight:900;color:#0f172a;text-align:center;margin-bottom:8px;line-height:1.35}
+.subtitle{text-align:center;color:#64748b;font-size:15px;margin-bottom:28px}
+.ref-box{background:#fff7ed;border:2px dashed #ea580c;border-radius:16px;padding:18px 16px;margin-bottom:20px;text-align:center}
+.ref-lbl{font-size:11px;color:#9a3412;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.ref-num{font-size:22px;color:#c2410c;font-family:'Courier New',monospace;font-weight:900;direction:ltr;word-break:break-all;margin-bottom:14px;letter-spacing:.5px}
+.copy-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#ea580c;color:#fff;border-radius:999px;padding:11px 22px;font-weight:800;font-size:13px;transition:all .25s ease;min-height:44px}
+.copy-btn:hover{background:#c2410c;transform:translateY(-2px)}
+.copy-btn.done{background:#059669}
+.copy-btn svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.details{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 15px;background:#fff7ed;border-radius:11px;border-right:4px solid #ea580c;font-size:14px}
+.row .lbl{display:inline-flex;align-items:center;gap:8px;color:#9a3412;font-weight:800;font-size:13px;flex-shrink:0}
+.row .lbl svg{width:16px;height:16px;fill:none;stroke:#c2410c;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.row .val{color:#0f172a;font-weight:800;text-align:left;word-break:break-word;min-width:0}
+.row.total{background:#d1fae5;border-right-color:#10b981;padding:16px 15px}
+.row.total .lbl{color:#065f46;font-size:14px}
+.row.total .lbl svg{stroke:#047857}
+.row.total .val{color:#047857;font-size:18px;font-weight:900}
+.track-box{background:#f8fafc;border:2px solid #ea580c;border-radius:16px;padding:20px 18px;margin-bottom:20px}
+.track-hd{display:flex;align-items:center;gap:9px;font-weight:900;color:#c2410c;font-size:16px;margin-bottom:14px;padding-bottom:12px;border-bottom:2px dashed #e2e8f0}
+.track-hd svg{width:20px;height:20px;fill:none;stroke:#c2410c;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.track-form{display:flex;gap:8px;flex-wrap:wrap}
+.track-inp{flex:1;min-width:150px;padding:12px 14px;border:2px solid #e2e8f0;border-radius:11px;background:#fff;font-family:inherit;font-size:14px;font-weight:700;outline:none;direction:ltr;text-align:center;transition:border-color .2s}
+.track-inp:focus{border-color:#ea580c;box-shadow:0 0 0 4px rgba(234,88,12,.1)}
+.track-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:12px 20px;background:linear-gradient(135deg,#ea580c,#c2410c);color:#fff;border-radius:11px;font-weight:900;font-size:14px;min-height:48px;transition:transform .2s}
+.track-btn:hover{transform:translateY(-2px)}
+.track-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.track-btn svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.track-res{margin-top:14px;padding:14px;background:#fff;border-radius:11px;border-right:4px solid #ea580c;display:none;font-size:14px}
+.track-res.show{display:block;animation:fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.track-row{display:flex;justify-content:space-between;gap:10px;padding:10px 2px;border-bottom:1px dashed #e2e8f0}
+.track-row:last-of-type{border-bottom:0}
+.track-row .tl{color:#64748b;font-weight:600}
+.track-row .tv{color:#0f172a;font-weight:800;text-align:left;word-break:break-word}
+.status-chip{padding:6px 14px;border-radius:999px;font-weight:900;font-size:12px}
+.cta{display:flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(135deg,#ea580c,#c2410c);color:#fff;border-radius:14px;padding:16px;font-weight:900;font-size:16px;box-shadow:0 10px 28px -8px rgba(234,88,12,.5);transition:transform .25s,box-shadow .25s;min-height:54px}
+.cta:hover{transform:translateY(-2px);box-shadow:0 14px 34px -8px rgba(234,88,12,.65)}
+.cta svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.wa-btn{display:flex;align-items:center;justify-content:center;gap:10px;background:#25d366;color:#fff;border-radius:14px;padding:16px;font-weight:900;font-size:16px;margin-top:12px;box-shadow:0 10px 28px -8px rgba(37,211,102,.5);transition:transform .25s,box-shadow .25s;min-height:54px}
+.wa-btn:hover{transform:translateY(-2px);box-shadow:0 14px 34px -8px rgba(37,211,102,.65)}
+.wa-btn svg{width:20px;height:20px;fill:currentColor;flex-shrink:0}
+.foot{background:linear-gradient(90deg,#0f172a 0%,#1e293b 100%);color:rgba(255,255,255,.75);text-align:center;padding:22px 20px;font-size:13px}
+.foot strong{color:#fb923c}
+.trust{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:10px;color:rgba(255,255,255,.85);font-size:12px;flex-wrap:wrap}
+.trust svg{width:13px;height:13px;fill:none;stroke:#10b981;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.empty-state{text-align:center;padding:40px 20px}
+.empty-icon{width:80px;height:80px;border-radius:50%;background:#fee2e2;display:flex;align-items:center;justify-content:center;margin:0 auto 20px}
+.empty-icon svg{width:40px;height:40px;fill:none;stroke:#dc2626;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.empty-state h1{font-size:22px;margin-bottom:12px}
+.empty-state p{color:#64748b;margin:0 0 24px}
+.empty-cta{display:inline-flex;align-items:center;gap:8px;background:#ea580c;color:#fff;padding:14px 28px;border-radius:12px;font-weight:900;font-size:15px;transition:transform .25s}
+.empty-cta:hover{transform:translateY(-2px)}
+.empty-cta svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+@media (max-width:520px){
+  .main{padding:24px 16px 32px}
+  h1{font-size:22px}
+  .ref-num{font-size:18px}
+  .hdr{padding:12px 16px}
+  .hdr-logo{height:32px}
+  .hdr-badge{font-size:11px;padding:5px 10px}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <img class="hdr-logo" src="https://i.ibb.co/Dg6yPNpn/sufom-store.png" alt="SUFAM" width="150" height="38">
+  <span class="hdr-badge">
+    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    الدفع عند التسليم
+  </span>
+</header>
+
+<main class="main" id="mainContent">
+  <div class="hero-icon">
+    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+  </div>
+
+  <h1>تم استلام طلبك بنجاح!</h1>
+  <p class="subtitle">شكراً لثقتك بنا — سنتواصل معك قريباً لتأكيد الطلب</p>
+
+  <div class="ref-box">
+    <div class="ref-lbl">رقم الطلب المرجعي</div>
+    <div class="ref-num" id="refNum">#SF-XXXX</div>
+    <button class="copy-btn" id="copyBtn" type="button" aria-label="نسخ الرقم المرجعي">
+      <svg id="copyIcon" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span id="copyTxt">نسخ الرقم</span>
+    </button>
+  </div>
+
+  <div class="details" id="details"></div>
+
+  <div class="track-box">
+    <div class="track-hd">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+      <span>تتبع طلبك</span>
+    </div>
+    <div class="track-form">
+      <input class="track-inp" id="trackInp" type="text" placeholder="SF-20260926-1234" inputmode="text" autocomplete="off">
+      <button class="track-btn" id="trackBtn" type="button">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/></svg>
+        <span>تتبع</span>
+      </button>
+    </div>
+    <div class="track-res" id="trackRes"></div>
+  </div>
+
+  <a class="cta" href="https://www.sufam.ma">
+    <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+    <span>مواصلة التسوق</span>
+  </a>
+
+  <a class="wa-btn" id="waBtn" href="https://wa.me/212660082442" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.4.7-.4h.5c.2 0 .4 0 .6.5l.8 2c.1.1.1.3 0 .5l-.3.5-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.4.1.6-.1l.8-.9c.2-.2.3-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.7-.1 1.3z"/></svg>
+    <span>تواصل معنا على واتساب</span>
+  </a>
+</main>
+
+<footer class="foot">
+  © <span id="year"></span> <strong>SUFAM</strong> — جميع الحقوق محفوظة
+  <div class="trust">
+    <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+    <span>الدفع عند التسليم — توصيل خلال 24-48 ساعة</span>
+  </div>
+</footer>
+
+<script>
+window.SUFAM_CONFIG = {
+  GA4_ID:       'G-XXXXXXXXXX',
+  FB_PIXEL_ID:  'YOUR_PIXEL_ID',
+  DRIVE_URL:    'https://script.google.com/macros/s/AKfycbz3n4xK1ZLXVzoQXs-8FFUPAbrcXFklUszDuuiQt6vRHk2zkKSO7jtBRDVmh2XqWgEVyA/exec',
+  STORE_URL:    'https://www.sufam.ma',
+  CURRENCY:     'MAD',
+  COOKIE_DOMAIN:'.sufam.ma',
+  WHATSAPP:     '212660082442'
+};
+</script>
+
+<script>
+(function(){
+'use strict';
+var C = window.SUFAM_CONFIG;
+var hasGA = C.GA4_ID && C.GA4_ID !== 'G-XXXXXXXXXX';
+var hasFB = C.FB_PIXEL_ID && C.FB_PIXEL_ID !== 'YOUR_PIXEL_ID';
+
+/* ═══ Analytics ═══ */
+if(hasGA){
+  var g=document.createElement('script');
+  g.async=true;g.src='https://www.googletagmanager.com/gtag/js?id='+C.GA4_ID;
+  document.head.appendChild(g);
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=function(){window.dataLayer.push(arguments)};
+  gtag('js',new Date());
+  gtag('config',C.GA4_ID,{send_page_view:true});
+}
+if(hasFB){
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init',C.FB_PIXEL_ID);
+  fbq('track','PageView');
+}
+
+/* ═══ Helpers ═══ */
+function readCookie(n){
+  try{
+    var m = document.cookie.match('(^|;)\\s*'+n+'\\s*=\\s*([^;]+)');
+    return m ? decodeURIComponent(m[2]) : '';
+  }catch(e){return '';}
+}
+function deleteCookie(n){
+  try{
+    document.cookie = n+'=;max-age=0;path=/;domain='+C.COOKIE_DOMAIN;
+    document.cookie = n+'=;max-age=0;path=/';
+  }catch(e){}
+}
+function eh(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function fmt(n){
+  if(!n) return '0';
+  return (Math.round(n*100)/100).toLocaleString('ar-MA');
+}
+
+/* ═══ Read Order Data ═══ */
+var raw = readCookie('sufam_order');
+if(!raw){
+  try{ raw = sessionStorage.getItem('sufam_order') || ''; }catch(e){}
+}
+var data = {};
+try{ data = raw ? JSON.parse(raw) : {}; }catch(e){}
+
+var ref     = data.ref || 'SF-XXXX';
+var product = data.product || '';
+var price   = parseFloat(data.price) || 0;
+var qty     = parseInt(data.qty,10) || 1;
+var name    = data.name || '';
+var city    = data.city || '';
+var phone   = data.phone || '';
+var total   = Math.round(price * qty * 100) / 100;
+
+/* امسح الكوكي بعد القراءة */
+deleteCookie('sufam_order');
+
+/* ═══ Empty State (بلا بيانات) ═══ */
+if(!data.ref){
+  document.getElementById('mainContent').innerHTML = 
+    '<div class="empty-state">'
+    + '<div class="empty-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg></div>'
+    + '<h1>لا توجد بيانات طلب</h1>'
+    + '<p>يبدو أنك فتحت هذه الصفحة مباشرة.<br>الرجاء إتمام طلب من المتجر أولاً.</p>'
+    + '<a class="empty-cta" href="'+C.STORE_URL+'"><svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>العودة للمتجر</a>'
+    + '</div>';
+  document.getElementById('year').textContent = new Date().getFullYear();
+  return;
+}
+
+/* ═══ Render ═══ */
+document.getElementById('refNum').textContent = '#'+ref;
+document.getElementById('trackInp').value = ref;
+document.getElementById('waBtn').href = 'https://wa.me/'+C.WHATSAPP+'?text='+encodeURIComponent('مرحباً، طلبي رقم '+ref);
+
+var details = document.getElementById('details');
+var ICONS = {
+  product:'<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>',
+  user:'<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>',
+  phone:'<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>',
+  city:'<path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/>',
+  qty:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/>',
+  money:'<circle cx="12" cy="12" r="9"/><path d="M14 8h-3a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4h-3"/><path d="M12 6v12"/>'
+};
+var rows = [];
+if(product) rows.push({ic:ICONS.product, lb:'المنتج', vl:product});
+if(name)    rows.push({ic:ICONS.user,    lb:'الاسم',  vl:name});
+if(phone)   rows.push({ic:ICONS.phone,   lb:'الهاتف', vl:phone, dir:'ltr'});
+if(city)    rows.push({ic:ICONS.city,    lb:'المدينة',vl:city});
+rows.push({ic:ICONS.qty, lb:'الكمية', vl:String(qty)});
+
+var html='';
+rows.forEach(function(r){
+  html += '<div class="row"><span class="lbl"><svg viewBox="0 0 24 24">'+r.ic+'</svg>'+r.lb+'</span><span class="val" style="direction:'+(r.dir||'rtl')+';">'+eh(r.vl)+'</span></div>';
+});
+if(total>0){
+  html += '<div class="row total"><span class="lbl"><svg viewBox="0 0 24 24">'+ICONS.money+'</svg>المجموع</span><span class="val">'+fmt(total)+' MAD</span></div>';
+}
+details.innerHTML = html;
+
+/* ═══ Copy Ref ═══ */
+var copyBtn=document.getElementById('copyBtn');
+var copyTxt=document.getElementById('copyTxt');
+var copyIcon=document.getElementById('copyIcon');
+function fallbackCopy(txt,cb){
+  var t=document.createElement('textarea');
+  t.value=txt;t.style.position='fixed';t.style.opacity='0';
+  document.body.appendChild(t);t.select();
+  try{document.execCommand('copy')}catch(e){}
+  document.body.removeChild(t);cb();
+}
+copyBtn.addEventListener('click',function(){
+  var done=function(){
+    copyTxt.textContent='تم النسخ ✓';
+    copyBtn.classList.add('done');
+    copyIcon.innerHTML='<polyline points="20 6 9 17 4 12"/>';
+    setTimeout(function(){
+      copyTxt.textContent='نسخ الرقم';
+      copyBtn.classList.remove('done');
+      copyIcon.innerHTML='<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>';
+    },2000);
+  };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(ref).then(done).catch(function(){fallbackCopy(ref,done)});
+  }else{
+    fallbackCopy(ref,done);
+  }
+});
+
+/* ═══ Track Order ═══ */
+var trackBtn=document.getElementById('trackBtn');
+var trackInp=document.getElementById('trackInp');
+var trackRes=document.getElementById('trackRes');
+function showTrack(h){
+  trackRes.innerHTML=h;
+  trackRes.classList.add('show');
+}
+trackBtn.addEventListener('click',function(){
+  var r=(trackInp.value||'').trim().replace(/^#/,'');
+  if(!r){showTrack('<p style="text-align:center;color:#dc2626;margin:0;">الرجاء إدخال رقم المرجع</p>');return;}
+  showTrack('<p style="text-align:center;color:#64748b;margin:0;">جاري البحث...</p>');
+  trackBtn.disabled=true;
+  fetch(C.DRIVE_URL+'?action=getOrder&ref='+encodeURIComponent(r))
+    .then(function(x){return x.json()})
+    .then(function(res){
+      trackBtn.disabled=false;
+      if(res.status==='not_found'||!res.order){
+        showTrack('<p style="text-align:center;color:#dc2626;margin:0;">❌ لم يتم العثور على الطلب</p>');
+        return;
+      }
+      var o=res.order;
+      var colors={'جديد':'#fef3c7','تم التأكيد':'#dbeafe','تم الشحن':'#e0e7ff','تم التسليم':'#d1fae5','ملغى':'#fee2e2'};
+      var bg='#fef3c7';
+      for(var k in colors){if(o.status && o.status.indexOf(k)!==-1){bg=colors[k];break;}}
+      var data=[['المرجع',o.ref||r,'ltr'],['المنتج',o.product||'-','rtl'],['الاسم',o.name||'-','rtl'],['المدينة',o.city||'-','rtl'],['الكمية',o.qty||'-','rtl'],['المجموع',o.total||'-','rtl']];
+      var h='';
+      data.forEach(function(rw){
+        h+='<div class="track-row"><span class="tl">'+rw[0]+':</span><strong class="tv" style="direction:'+rw[2]+';">'+eh(rw[1])+'</strong></div>';
+      });
+      h+='<div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 2px 4px;"><span class="tl">الحالة:</span><span class="status-chip" style="background:'+bg+';">'+eh(o.status||'-')+'</span></div>';
+      showTrack(h);
+    })
+    .catch(function(){
+      trackBtn.disabled=false;
+      showTrack('<p style="text-align:center;color:#dc2626;margin:0;">❌ تعذر الاتصال</p>');
+    });
+});
+trackInp.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();trackBtn.click();}});
+
+/* ═══ Purchase Tracking (once) ═══ */
+if(ref && ref!=='SF-XXXX'){
+  var fk='pf_'+ref, done=false;
+  try{ done=!!sessionStorage.getItem(fk); }catch(e){}
+  if(!done){
+    try{ sessionStorage.setItem(fk,'1'); }catch(e){}
+    setTimeout(function(){
+      if(hasFB && typeof fbq==='function'){
+        fbq('track','Purchase',{
+          value:total, currency:C.CURRENCY,
+          content_ids:[ref], content_name:product||'',
+          content_type:'product', num_items:qty
+        },{eventID:ref});
+      }
+      if(hasGA && typeof gtag==='function'){
+        gtag('event','purchase',{
+          transaction_id:ref, value:total, currency:C.CURRENCY,
+          items:[{item_id:ref,item_name:product||'',price:price,quantity:qty}]
+        });
+      }
+    },400);
+  }
+}
+
+/* ═══ Year ═══ */
+document.getElementById('year').textContent=new Date().getFullYear();
+
+})();
+</script>
+
+</body>
+</html>
